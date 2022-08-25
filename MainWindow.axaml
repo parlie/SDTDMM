@@ -1,0 +1,42 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="SDTDMM.MainWindow"
+        Title="SDTDMM"
+        CornerRadius="50">
+	<Grid RowDefinitions="*,30">
+		<Grid Grid.Row="0">
+			<TabControl TabStripPlacement="Left">
+				<TabItem Header="Play">
+					<Grid RowDefinitions="*,80">
+						<Panel Grid.Row="0">
+
+						</Panel>
+						<Panel Grid.Row="1" HorizontalAlignment="Center">
+							<Button Height="42" Width="68"
+                                    VerticalContentAlignment="Center"
+                                    HorizontalContentAlignment="Center"
+                                    FontWeight="Bold" FontSize="18">
+								Play
+							</Button>
+						</Panel>
+					</Grid>
+				</TabItem>
+				<TabItem Header="Manage">
+
+				</TabItem>
+				<TabItem Header="Download">
+					<!--<TabItem.Header>
+                        <Image Height="48" Width="48" Source="img.png"/>
+					</TabItem.Header>-->
+
+				</TabItem>
+			</TabControl>
+		</Grid>
+		<Grid Grid.Row="1" Background="Blue">
+
+		</Grid>
+	</Grid>
+</Window>
