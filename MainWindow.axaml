@@ -12,7 +12,9 @@
 				<TabItem Header="Play">
 					<Grid RowDefinitions="*,80">
 						<Panel Grid.Row="0">
+							<Image Source="assets/menuart.jpg">
 
+							</Image>
 						</Panel>
 						<Panel Grid.Row="1" HorizontalAlignment="Center">
 							<Button Height="42" Width="68"
